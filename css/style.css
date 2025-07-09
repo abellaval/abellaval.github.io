@@ -1,0 +1,68 @@
+* {
+   font-family: monospace;
+   font-size: 16px;
+   line-height: 1.4;
+}
+
+h2 {
+   text-align: center;
+   font-size: 1.5em;
+}
+
+h3 {
+   font-size: 1.4em;
+}
+
+h4 {
+   font-size: 1.2em;
+}
+
+main, header {
+   color: black;
+   margin: 0 auto;
+   min-height: 100%;
+   overflow-wrap: break-word;
+   min-width: 200px;
+   width: 50%;
+}
+
+cal {
+   font-family: monospace;
+   font-size: 16px;
+   line-height: 1.4;
+}
+
+a {
+   /*text-decoration: none;*/
+}
+
+.research-titre {
+   font-weight: bold;
+   display: block;
+}
+
+.research-auteurs {
+}
+
+.research-annee {
+}
+
+.research-acceptedat {
+}
+
+.research-lien {
+   padding-right: 1em;
+}
+
+.titre-cours {
+   font-weight: bold;
+}
+
+.descriptif-cours {
+   color: #333333;
+}
+
+.quadri-cours {
+   color: #5BADFF;
+   font-weight: bold;
+}
