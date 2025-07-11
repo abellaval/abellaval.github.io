@@ -1,6 +1,6 @@
 const PAPERS_DATA = [
    {
-      titre: "KLPT²: Algebraic Pathfinding in Dimension Two and Applications",
+      titre: "KLPT²: Algebraic pathfinding in dimension two and applications",
       auteurs: "Wouter Castryck, Thomas Decru, Péter Kutas, Abel Laval, Christophe Petit, Yan Bo Ti",
       annee: "2025",
       acceptedat: "CRYPTO 2025",

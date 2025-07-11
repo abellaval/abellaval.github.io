@@ -1,12 +1,15 @@
-//import PREPRINT_DATA from "./data-preprint.js";
-//import PAPERS_DATA from "./data-papers.js";
-
+//import PAPERS_DATA from "./papers-data.js";
+//import PREPRINTS_DATA from "./preprints-data.js";
+//import TALKS_DATA from "./talks-data.js";
 
 function LienSpecial(nom) {
    const liensLogos = [
       { "nom": "arxiv", "src": "img/arxiv-logo.svg" },
       { "nom": "PDF", "src": "img/pdf-logo.svg" },
       { "nom": "Code", "src": "img/code-logo.svg" },
+      { "nom": "event-page"},
+      { "nom": "slides"},
+
    ];
    
    for (const logo of liensLogos) {
@@ -48,16 +51,19 @@ function GenererLiens(liens) {
    return div;
 }
 
+
 function ChargerDonnees(id, articles) {
    const elem = document.getElementById(id);
-   
-   if (elem) {
+   console.log(articles)
+   console.log("-------------------")
+
+   if (articles.length > 0) {
       for (const article of articles) {
          const li = document.createElement("li");
          let span;
          
          span = document.createElement("span");
-         span.className = "research-titre";
+         span.className = "title";
          span.textContent = article.titre;
          li.appendChild(span);
          
@@ -74,11 +80,59 @@ function ChargerDonnees(id, articles) {
 
          span = document.createElement("span");
          span.className = "research-acceptedat";
-         span.textContent = article.acceptedat;
+         span.innerHTML = article.acceptedat;
          li.appendChild(span);
          
          li.appendChild(GenererLiens(article.liens));
          
+         elem.appendChild(li);
+      }
+   } 
+    /* else {
+      const message = document.createElement("p");
+      message.textContent = "We require more papers !";
+      elem.appendChild(message);
+   }
+   */
+}
+
+
+function LoadTalks(id, talks) {
+   const elem = document.getElementById(id);
+   console.log(talks)
+
+   if (elem) {
+      for (const talk of talks) {
+         const li = document.createElement("li");
+         li.className = "talks-with-margin";
+         let span;
+
+         /* Title */
+         span = document.createElement("span");
+         span.className = "title";
+         span.textContent = talk.title;
+         li.appendChild(span);
+
+         /* Event */
+         span = document.createElement("span");
+         span.className = "event";
+         span.textContent = talk.event + " — ";
+         li.appendChild(span);
+
+         /* Location */
+         span = document.createElement("span");
+         span.className = location;
+         span.textContent = "(" + talk.location + ", ";
+         li.appendChild(span);
+
+         /* Date */
+         span = document.createElement("span");
+         span.className = "date";
+         span.textContent = talk.date  + ") ";
+         li.appendChild(span);
+
+         /*li.appendChild(GenererLiens(article.liens));*/
+
          elem.appendChild(li);
       }
    }
@@ -86,8 +140,8 @@ function ChargerDonnees(id, articles) {
 
 
 
-
 window.addEventListener("load", () => {
-   ChargerDonnees("preprint", PREPRINT_DATA);
    ChargerDonnees("papers", PAPERS_DATA);
+   ChargerDonnees("preprints", PREPRINTS_DATA);
+   LoadTalks("talks", TALKS_DATA)
 });

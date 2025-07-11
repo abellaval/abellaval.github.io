@@ -6,16 +6,22 @@
 
 h2 {
    text-align: center;
-   font-size: 1.5em;
+   font-size: 2em;
 }
 
 h3 {
-   font-size: 1.4em;
+   font-size: 1.7em;
 }
 
 h4 {
    font-size: 1.2em;
+   margin-top: 0px;
 }
+
+ol {
+   line-height: 2;
+}
+
 
 main, header {
    color: black;
@@ -23,7 +29,7 @@ main, header {
    min-height: 100%;
    overflow-wrap: break-word;
    min-width: 200px;
-   width: 50%;
+   width: 53%;
 }
 
 cal {
@@ -32,11 +38,41 @@ cal {
    line-height: 1.4;
 }
 
+/* For the photo I may or may not include... */
+.offcenter-img {
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 300px;
+  text-align: center; /* centers the caption */
+}
+
+.offcenter-img img {
+  width: 100%; /* makes the image fit inside the figure */
+  display: block;
+}
+
+.offcenter-img figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
+}
+
 a {
    /*text-decoration: none;*/
 }
 
-.research-titre {
+li.talks-with-margin {
+   margin-bottom: 10px;
+}
+
+li.courses-with-margin {
+   margin-bottom: 20px;
+}
+
+
+/* Papers and preprints */
+.title {
    font-weight: bold;
    display: block;
 }
@@ -48,12 +84,22 @@ a {
 }
 
 .research-acceptedat {
+   font-style: italic;
+   display: block;
+   color: #5BADFF;
 }
 
+/* Links for pdf, eprint or slides */
 .research-lien {
    padding-right: 1em;
 }
 
+/* Talks */
+.event {
+}
+
+
+/* Course title */
 .titre-cours {
    font-weight: bold;
 }
@@ -65,4 +111,9 @@ a {
 .quadri-cours {
    color: #5BADFF;
    font-weight: bold;
+   margin-bottom: 50px;
+}
+
+.calligraphy {
+   font-family: cursive;
 }
