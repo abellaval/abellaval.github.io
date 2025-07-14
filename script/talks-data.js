@@ -50,7 +50,7 @@ const TALKS_DATA = [
    },
 
     {
-      title:      "Malleable Commitments from Group Actions andZero-Knowledge Proofs for Circuits based on Isogenies",
+      title:      "Malleable Commitments from Group Actions and Zero-Knowledge Proofs for Circuits based on Isogenies",
       event:      "Indocrypt 2023",
       location:   "Goa",
       date:       "December 2023",
