@@ -107,6 +107,7 @@ li.courses-with-margin {
 }
 
 .descriptif-cours {
+   display: block;
    color: #333333;
 }
 

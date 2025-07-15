@@ -122,13 +122,13 @@ function LoadTalks(id, talks) {
          /* Location */
          span = document.createElement("span");
          span.className = location;
-         span.textContent = "(" + talk.location + ", ";
+         span.textContent = talk.location + ", ";
          li.appendChild(span);
 
          /* Date */
          span = document.createElement("span");
          span.className = "date";
-         span.textContent = talk.date  + ") ";
+         span.textContent = talk.date;
          li.appendChild(span);
 
          /*li.appendChild(GenererLiens(article.liens));*/
