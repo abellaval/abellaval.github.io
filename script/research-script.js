@@ -17,7 +17,7 @@ function LienSpecial(nom) {
          const img = document.createElement("img");
          img.alt = logo.nom;
          img.src = logo.src;
-         img.style.height = "1em";
+         img.style.height = "1lh";
          img.style.display = "inline-block";
          img.title = logo.nom;
          

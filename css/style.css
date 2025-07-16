@@ -29,15 +29,15 @@ main, header {
    color: black;
    margin: 0 auto;
    min-height: 100%;
+   overflow-wrap: break-word;
    min-width: 200px;
    width: 53%;
-   overflow-wrap: break-word;
 }
 
 /* Style for smartphones */
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   * {
-    font-size: 1rem; /* Slightly smaller base font */
+    font-size: 14px; /* Slightly smaller base font */
   }
 
   h2 {
