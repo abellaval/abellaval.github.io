@@ -35,25 +35,26 @@ main, header {
 }
 
 /* Style for smartphones */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   * {
-    font-size: 1rem; /* Slightly smaller base font */
+    font-size: 14px; /* Slightly smaller base font */
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   h3 {
-    font-size: 1.3em;
+    font-size: 1.7em;
   }
 
   h4 {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   main, header {
     width: 80%; /* Expand width to fill more of small screen */
+    padding: 10px;
     margin: 0 auto;
   }
 }
