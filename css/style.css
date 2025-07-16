@@ -34,28 +34,30 @@ main, header {
    width: 53%;
 }
 
-/* Style for smartphones */
-@media (max-width: 1080px) {
-  * {
-    font-size: 14px; /* Slightly smaller base font */
-  }
+cal {
+   font-family: monospace;
+   font-size: 16px;
+   line-height: 1.4;
+}
 
-  h2 {
-    font-size: 1.5em;
-  }
+/* For the photo I may or may not include... */
+.offcenter-img {
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
+  width: 300px;
+  text-align: center; /* centers the caption */
+}
 
-  h3 {
-    font-size: 1.3em;
-  }
+.offcenter-img img {
+  width: 100%; /* makes the image fit inside the figure */
+  display: block;
+}
 
-  h4 {
-    font-size: 1em;
-  }
-
-  main, header {
-    width: 80%; /* Expand width to fill more of small screen */
-    margin: 0 auto;
-  }
+.offcenter-img figcaption {
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 5px;
 }
 
 a {
@@ -63,11 +65,11 @@ a {
 }
 
 li.talks-with-margin {
-   margin-bottom: 3%;
+   margin-bottom: 10px;
 }
 
 li.courses-with-margin {
-   margin-bottom: 5%;
+   margin-bottom: 20px;
 }
 
 
@@ -112,6 +114,7 @@ li.courses-with-margin {
 .quadri-cours {
    color: #5BADFF;
    font-weight: bold;
+   margin-bottom: 50px;
 }
 
 .calligraphy {
