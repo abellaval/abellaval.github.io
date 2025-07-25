@@ -110,17 +110,14 @@ li.courses-with-margin {
    color: #5BADFF;
 }
 
-/* Links for pdf, eprint or slides */
 .research-lien {
    padding-right: 1em;
 }
 
-/* Talks */
 .event {
 }
 
 
-/* Course title */
 .titre-cours {
    font-weight: bold;
 }
