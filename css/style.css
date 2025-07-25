@@ -70,6 +70,16 @@ a.colored {
    color: #5BADFF;
 }
 
+a.bib {
+   text-decoration: none;
+   color: blue;
+}
+
+a.bib:visited {
+   text-decoration: none;
+   color: blue;
+}
+
 li.talks-with-margin {
    margin-bottom: 10px;
 }

@@ -12,7 +12,7 @@ pdf_files = [f for f in os.listdir(pdf_dir) if f.lower().endswith('.pdf')]
 list_items = []
 for filename in pdf_files:
     name = os.path.splitext(filename)[0]
-    list_items.append(f'\t<li><a class"no-underline" href="{pdf_dir}/{filename}" target="_blank">{name}</a></li>')
+    list_items.append(f'\t<li><a class="bib" href="{pdf_dir}/{filename}" target="_blank">{name}</a></li>')
 
 
 html_page = f"""<!DOCTYPE html>
