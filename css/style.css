@@ -34,6 +34,10 @@ main, header {
    width: 53%;
 }
 
+p.bib {
+   margin-left: 2%;
+}
+
 cal {
    font-family: monospace;
    font-size: 16px;
@@ -60,6 +64,10 @@ cal {
   margin-top: 5px;
 }
 
+a:visited {
+   color: blue;
+}
+
 a.no-underline {
    text-decoration: none;
 }
@@ -72,13 +80,8 @@ a.colored {
 
 a.bib {
    text-decoration: none;
-   color: blue;
 }
 
-a.bib:visited {
-   text-decoration: none;
-   color: blue;
-}
 
 li.talks-with-margin {
    margin-bottom: 10px;
