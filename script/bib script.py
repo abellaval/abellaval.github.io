@@ -25,10 +25,15 @@ html_page = f"""<!DOCTYPE html>
 </head>\n
 
 <body>
-  <h2>Articles</h2>
-  <ol>
-{chr(10).join(list_items)}
-  </ol>
+    <header>
+        <a style="margin-right: 10px;"  href="index.html">home</a>
+        <a style="margin-right: 10px;"  href="research.html">research</a>
+        <a style="margin-right: 10px;"  href="teaching.html">teaching</a>
+    </header>
+    <h2>Articles</h2>
+    <ol>
+    {chr(10).join(list_items)}
+    </ol>
 </body>
 </html>
 """
