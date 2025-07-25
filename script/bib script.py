@@ -19,7 +19,7 @@ html_page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 \t<title>Abel Laval</title>
-\t<link rel="icon" type="image/png" href="img/favicon.png">
+\t<link rel="icon" type="image/png" href="img/favicon.svg">
 \t<link rel="stylesheet" href="css/style.css">
 \t<meta charset="UTF-8">
 </head>\n
