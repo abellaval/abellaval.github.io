@@ -60,8 +60,14 @@ cal {
   margin-top: 5px;
 }
 
-a {
-   /*text-decoration: none;*/
+a.no-underline {
+   text-decoration: none;
+}
+
+a.colored {
+   text-decoration: none;
+   font-style: italic;
+   color: #5BADFF;
 }
 
 li.talks-with-margin {
