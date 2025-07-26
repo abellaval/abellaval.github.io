@@ -3,7 +3,7 @@ const PAPERS_DATA = [
       titre: "KLPT²: Algebraic pathfinding in dimension two and applications",
       auteurs: "Wouter Castryck, Thomas Decru, Péter Kutas, Abel Laval, Christophe Petit, Yan Bo Ti",
       annee: "2025",
-      acceptedat: "<a class='colored' href='https://crypto.iacr.org/2025'>CRYPTO 2025</a> – Best paper award",
+      acceptedat: "<a class='colored' href='https://crypto.iacr.org/2025'>CRYPTO 2025 – Best paper award</a>",
       
       liens: {
          "pdf": "https://eprint.iacr.org/2025/372.pdf",
