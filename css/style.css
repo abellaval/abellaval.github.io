@@ -24,6 +24,9 @@ ol {
    line-height: 2;
 }
 
+br.smallgap {
+   display: block;
+}
 
 main, header {
    color: black;
