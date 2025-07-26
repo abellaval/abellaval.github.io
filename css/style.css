@@ -2,7 +2,7 @@
 
 * {
    font-family: monospace;
-   font-size: 16px;
+   font-size: 17px;
    line-height: 1.4;
 }
 
@@ -26,6 +26,7 @@ ol {
 
 br.smallgap {
    display: block;
+   line-height: 0.5;
 }
 
 main, header {
