@@ -79,7 +79,7 @@ a.no-underline {
 a.colored {
    text-decoration: none;
    font-style: italic;
-   color: #5BADFF;
+   color: #3B8DBD;
 }
 
 a.bib {
@@ -114,8 +114,10 @@ li.courses-with-margin {
 }
 
 
-.titre-cours {
+a.titre-cours {
+   text-decoration: none;
    font-weight: bold;
+   color: #3B8DBD
 }
 
 .descriptif-cours {
@@ -123,8 +125,13 @@ li.courses-with-margin {
    color: #333333;
 }
 
+.terms-course {
+   font-weight: bold;
+   color: #333333;
+}
+
 .quadri-cours {
-   color: #5BADFF;
+   color: #3B8DAA;
    font-weight: bold;
    margin-bottom: 50px;
 }
