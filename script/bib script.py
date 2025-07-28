@@ -25,13 +25,21 @@ html_page = f"""<!DOCTYPE html>
 </head>\n
 
 <body>
+    <!-- Books -->
     <p class="bib">
         <a style="margin-right: 10px;"  href="index.html">home</a>
     </p>
-    <h2>Articles</h2>
+    <h2>— Books —</h2>
+    <ol>
+        <li><a class="bib" href="./../books/[Hartshorne] Algebraic Geometry.pdf" target="_blank">[Hartshorne] Algebraic Geometry</a></li>
+    </ol>
+
+    <!-- Articles -->
+    <h2>— Articles —</h2>
     <ol>
     {chr(10).join(list_items)}
     </ol>
+
 </body>
 </html>
 """
