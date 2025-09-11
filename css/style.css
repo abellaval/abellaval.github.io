@@ -7,10 +7,16 @@
    background-color: #E7F0F8;
 }
 
+h2.bib{
+   text-align: center;
+   font-size: 1.5em;
+}
+
 h2 {
    text-align: center;
    font-size: 2em;
 }
+
 
 h3 {
    font-size: 1.7em;

@@ -1,48 +1,62 @@
 import os
 
 
-pdf_dir = './../bib'
-output_file = './../bib.html'
+bib_dir = './bib/'
+output_file = './bib.html'
+sections = ['KLPT', 'SQIsign', 'Isogenies','Mathematics', 'Drinfeld Modules','Cryptography', 'Books', 'Theses']
 
 
-pdf_files = [f for f in os.listdir(pdf_dir) if f.lower().endswith('.pdf')]
+def import_pdf(section_name) :
+
+    # Import files
+    dir = bib_dir + section_name
+    print(f"dir = {dir}")
+    pdf_files = [f for f in os.listdir(dir) if f.lower().endswith('.pdf')]
+
+    # Convert to html
+    list_items = []
+    for filename in pdf_files:
+        name = os.path.splitext(filename)[0]
+        list_items.append(f'\t\t<li><a class="bib" href="{dir}/{filename}" target="_blank">{name}</a></li>')
+    list_items.sort()
+
+    # Generate the html section
+    html_section = f"""
+    \n<!-- {section_name} -->
+    <h2 class='bib'>— {section_name} —</h2>
+    <ol>
+{chr(10).join(list_items)}
+    </ol>\n"""
+
+    return html_section
 
 
 
-list_items = []
-for filename in pdf_files:
-    name = os.path.splitext(filename)[0]
-    list_items.append(f'\t<li><a class="bib" href="{pdf_dir}/{filename}" target="_blank">{name}</a></li>')
-
-
-html_page = f"""<!DOCTYPE html>
+html_head = f"""<!DOCTYPE html>
 <html lang="en">
-<head>
-\t<title>Abel Laval</title>
-\t<link rel="icon" type="image/png" href="favicon.svg">
-\t<link rel="stylesheet" href="css/style.css">
-\t<meta charset="UTF-8">
-</head>\n
+    <head>
+        <title>Abel Laval</title>
+        <link rel="icon" type="image/png" href="favicon.svg">
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+    </head>
 
-<body>
-    <!-- Books -->
-    <p class="bib">
-        <a style="margin-right: 10px;"  href="index.html">home</a>
-    </p>
-    <h2>— Books —</h2>
-    <ol>
-        <li><a class="bib" href="./../books/[Hartshorne] Algebraic Geometry.pdf" target="_blank">[Hartshorne] Algebraic Geometry</a></li>
-    </ol>
+<body>"""
 
-    <!-- Articles -->
-    <h2>— Articles —</h2>
-    <ol>
-    {chr(10).join(list_items)}
-    </ol>
+html_coda = f"""</body>
+</html>"""
 
-</body>
-</html>
-"""
+
+# Head of the html page
+html_page = html_head
+
+# Add the sections
+for section in sections :
+    html_page += import_pdf(section)
+
+# End of the html code
+html_page += html_coda
+
 
 # Write to bib.html
 with open(output_file, 'w', encoding='utf-8') as f:
