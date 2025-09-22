@@ -41,7 +41,10 @@ html_head = f"""<!DOCTYPE html>
         <meta charset="UTF-8">
     </head>
 
-<body>"""
+<body>
+    <p class="bib">
+        <a style="margin-right: 10px;"  href="index.html">home</a>
+    </p>"""
 
 html_coda = f"""</body>
 </html>"""
@@ -62,4 +65,4 @@ html_page += html_coda
 with open(output_file, 'w', encoding='utf-8') as f:
     f.write(html_page)
 
-print(f"{output_file} has been generated successfully.")
+print(f"{output_file[2:]} has been generated successfully.")
