@@ -3,7 +3,7 @@ import os
 
 bib_dir = './bib/'
 output_file = './bib.html'
-sections = ['KLPT', 'SQIsign', 'Isogenies','Mathematics', 'Drinfeld Modules','Cryptography', 'Books', 'Theses']
+sections = ['KLPT & IKO', 'SQIsign', 'Isogenies','Mathematics', 'Drinfeld Modules','Cryptography', 'Books', 'Theses']
 
 
 def import_pdf(section_name) :
