@@ -8,8 +8,8 @@ const TALKS_DATA = [
       date:       "April 2025",
 
       links:{
-         "event-page":  "https://eprint.iacr.org/2025/372.pdf",
-         "slides":      "https://eprint.iacr.org/2025/372.pdf",
+         "slides":      "https://abellaval.github.io/slides/KLPT2–Amsterdam.pdf",
+
       }
    },
 
@@ -20,8 +20,7 @@ const TALKS_DATA = [
       date:       "March 2025",
 
       links:{
-         "event-page":  "https://eprint.iacr.org/2025/372.pdf",
-         "slides":      "https://eprint.iacr.org/2025/372.pdf",
+         "slides":      "https://abellaval.github.io/slides/KLPT2–JC2.pdf",
       }
    },
 
@@ -32,8 +31,6 @@ const TALKS_DATA = [
       date:       "March 2025",
 
       links:{
-         "event-page":  "https://eprint.iacr.org/2025/372.pdf",
-         "slides":      "https://eprint.iacr.org/2025/372.pdf",
       }
    },
 
@@ -44,8 +41,7 @@ const TALKS_DATA = [
       date:       "February 2025",
 
       links:{
-         "event-page":  "https://eprint.iacr.org/2025/372.pdf",
-         "slides":      "https://eprint.iacr.org/2025/372.pdf",
+         "slides":      "https://abellaval.github.io/slides/KLPT2–IsogenyClub.pdf",
       }
    },
 
@@ -56,8 +52,7 @@ const TALKS_DATA = [
       date:       "December 2023",
 
       links:{
-         "event-page":  "https://eprint.iacr.org/2025/372.pdf",
-         "slides":      "https://eprint.iacr.org/2025/372.pdf",
+         "slides":      "https://abellaval.github.io/slides/MalleableCommitments–Indocrypt.pdf",
       }
    },
 ];

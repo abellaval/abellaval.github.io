@@ -6,9 +6,7 @@ function LienSpecial(nom) {
    const liensLogos = [
       { "nom": "arxiv", "src": "img/arxiv-logo.svg" },
       { "nom": "PDF", "src": "img/pdf-logo.svg" },
-      { "nom": "Code", "src": "img/code-logo.svg" },
-      { "nom": "event-page"},
-      { "nom": "slides"},
+      { "nom": "slides"}
 
    ];
    
@@ -99,7 +97,7 @@ function ChargerDonnees(id, articles) {
 
 function LoadTalks(id, talks) {
    const elem = document.getElementById(id);
-   console.log(talks)
+   console.log(talks);
 
    if (elem) {
       for (const talk of talks) {
@@ -131,7 +129,7 @@ function LoadTalks(id, talks) {
          span.textContent = talk.date;
          li.appendChild(span);
 
-         /*li.appendChild(GenererLiens(article.liens));*/
+         li.appendChild(GenererLiens(talk.links));
 
          elem.appendChild(li);
       }
