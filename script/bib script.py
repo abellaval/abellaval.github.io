@@ -3,14 +3,13 @@ import os
 
 bib_dir = './bib/'
 output_file = './bib.html'
-sections = ['KLPT & IKO', 'SQIsign', 'Isogenies','Mathematics', 'Drinfeld Modules','Cryptography', 'Books', 'Theses', '"Science"']
+sections = ['KLPT & IKO', 'SQIsign', 'Isogenies','Mathematics', 'Drinfeld Modules','Cryptography', 'Books', 'Theses']
 
 
 def import_pdf(section_name, split=True) :
 
     # Import files
     dir = bib_dir + section_name
-    print(f"dir = {dir}")
     pdf_files = [f for f in os.listdir(dir) if f.lower().endswith('.pdf')]
 
     # Titleless articles are put above the others
@@ -25,7 +24,7 @@ def import_pdf(section_name, split=True) :
         without_title.sort()
         with_title.sort()
         pdf_files = without_title + with_title
-        print(pdf_files)
+        #print(pdf_files)
 
     # Convert to html
     list_items = []
