@@ -1,5 +1,15 @@
 const TALKS_DATA = [
    
+   {
+      title:      "Isogeny representations for cryptography",
+      event:      "Inria Caramba Seminar",
+      location:   "Nancy",
+      date:       "December 2025",
+
+      links:{
+
+      }
+   },
 
    {
       title:      "KLPT²: Algebraic pathfinding in dimension two and applications",
