@@ -1,5 +1,4 @@
 const TALKS_DATA = [
-   
    {
       title:      "Isogeny representations for cryptography",
       event:      "Inria Caramba Seminar",
