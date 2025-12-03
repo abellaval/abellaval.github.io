@@ -4,7 +4,7 @@ const TALKS_DATA = [
       title:      "Isogeny representations for cryptography",
       event:      "Inria Caramba Seminar",
       location:   "Nancy",
-      date:       "December 2025",
+      date:       "December 2nd, 2025",
 
       links:{
          "slides":      "https://abellaval.github.io/slides/IsogenyRepresentations-Nancy.pdf",
