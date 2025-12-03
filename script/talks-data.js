@@ -7,6 +7,7 @@ const TALKS_DATA = [
       date:       "December 2025",
 
       links:{
+         "slides":      "https://abellaval.github.io/slides/IsogenyRepresentations-Nancy.pdf",
 
       }
    },
