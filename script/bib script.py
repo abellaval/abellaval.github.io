@@ -84,4 +84,4 @@ html_page += html_coda
 with open(output_file, 'w', encoding='utf-8') as f:
     f.write(html_page)
 
-print(f"{output_file[2:]} has been generated successfully.")
+print(f"{output_file[2:]} has been successfully generated.")
