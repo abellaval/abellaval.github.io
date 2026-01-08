@@ -83,7 +83,7 @@ def load_categories(bib_dir, output_file, sections) :
 # One bib page per topic
 categories = [
     ['./bib/math/','./bib.html', ['KLPT & IKO','SQIsign','Mathematics','Drinfeld Modules','Cryptography','Lattices','Books','Theses','Misc']],
-    ['./bib/philo/', './philo.html', ['Philosophy of mind','Ethics']]
+    ['./bib/philo/', './bib2.html', ['Philosophy of mind','Metaphysics']]
 ]
 
 for category in categories :
