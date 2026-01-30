@@ -1,0 +1,570 @@
+[33mcommit 238475a53c6cf41fdf6f1cc4b7ea966ff7b079c8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jan 31 02:26:02 2026 +0900
+
+    removed zip until git improve
+
+[33mcommit ca947fb84f04d750f4fd7e84038a79be632c8a70[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Jan 21 12:23:49 2026 +0900
+
+    added bib archive
+
+[33mcommit 77957ad9ec2c1e31ac97194b53a7f0244303155f[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Jan 21 11:16:57 2026 +0900
+
+    added Silverman and Voight
+
+[33mcommit a007a00b771ff1b1a89afeecb1654a38d446c0cd[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Tue Jan 20 15:12:41 2026 +0900
+
+    added GSC ownership validation
+
+[33mcommit 55c60eae32c83c7f5e8704d88178eddba2d41ae5[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Tue Jan 20 12:02:24 2026 +0900
+
+    update bib
+
+[33mcommit f289846de0bfaa3ca19c172a6ad9dfbb7c658e1b[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jan 17 23:20:33 2026 +0900
+
+    lie removed
+
+[33mcommit ab8fbb53de5186e04d04b7e3296641e8b919d39c[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jan 17 23:02:04 2026 +0900
+
+    changed bib
+
+[33mcommit 5dcf24a9d15d512d7beb0a5b966b04b90e6c3008[m
+Merge: b2666e3 442fd9e
+Author: abellaval <abel.laval@ulb.be>
+Date:   Thu Jan 8 20:40:55 2026 +0100
+
+    Merge branch 'main' of https://github.com/abellaval/abellaval.github.io
+
+[33mcommit b2666e3965652156ea182291bf6a059c8ba380c2[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Thu Jan 8 20:39:50 2026 +0100
+
+    changed philo bib name
+
+[33mcommit 442fd9e46ee15c709f22876fed15c641695cdcd6[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Thu Jan 8 16:10:28 2026 +0100
+
+    Create CNAME
+
+[33mcommit 05c679b9c6c965926c81bbf910fefdc144434362[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Thu Jan 8 16:10:12 2026 +0100
+
+    Delete CNAME
+
+[33mcommit ebc185ab42a6cdd98cf94e1abd976e9d59f74ff1[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Thu Jan 8 14:49:32 2026 +0100
+
+    Create CNAME
+
+[33mcommit 1ac3000768f1cf0cc31efc1cc5294f5de78b1bca[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jan 7 16:38:54 2026 +0100
+
+    added bib categories and philosophy
+
+[33mcommit 6229141c560e31946ed506ea65b5223982bcbb2a[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jan 2 11:04:39 2026 +0100
+
+    added CDS to bib
+
+[33mcommit e677b66369454633669430eb5082fd1f4b852842[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Dec 3 18:47:55 2025 +0100
+
+    i hate git
+
+[33mcommit 37dcf936116d6717a1d4bcecc3ca2be5ba27d435[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Dec 3 18:43:14 2025 +0100
+
+    revert
+
+[33mcommit 3ae0c9e93a9632358e36d4803a2569c2af1e3055[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Dec 3 18:41:17 2025 +0100
+
+    stupid bugs
+
+[33mcommit 0f719cbe33e00cf8f5710d0f5ca465a81fe3de06[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Dec 3 18:28:59 2025 +0100
+
+    added slides Nancy
+
+[33mcommit a6e70a5e5c0401cac22d6c8c8c0ba4477fd916d4[m
+Merge: 0b2d0d8 ace6c5c
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sun Nov 30 21:05:38 2025 +0100
+
+    Merge branch 'main' of https://github.com/abellaval/abellaval.github.io
+
+[33mcommit 0b2d0d866a23ba53112080979314b9f6b40dd3e2[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sun Nov 30 21:05:36 2025 +0100
+
+    added nancy talk
+
+[33mcommit ace6c5c9befdf6ce315104dbb6e4ab725ef6ed47[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Thu Nov 6 11:06:35 2025 +0100
+
+    added lattice bib
+
+[33mcommit 8d2006442ac3680d2d2f9c5226ccc8cbdfd5e5a5[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Oct 29 16:35:44 2025 +0100
+
+    update bib
+
+[33mcommit a771cadc1a503b319a4de35909fde5331c933793[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Oct 29 16:28:24 2025 +0100
+
+    update bib
+
+[33mcommit 013b780dc3d70acd53783dfbbef7b089aa66c048[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Oct 25 01:45:16 2025 +0200
+
+    update bib
+
+[33mcommit 8f8f59b0a9b61e7885b5046b426736d3779e02f2[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Oct 24 23:09:08 2025 +0200
+
+    Update bib.html
+
+[33mcommit 1956a244468899e9f16d440979306b7685ccb919[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Oct 24 23:08:37 2025 +0200
+
+    Delete bib/"Science" directory
+
+[33mcommit 11aae352702d7c2cf0bcdd0242549ce32f32b8ba[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Sep 27 00:21:07 2025 +0200
+
+    updated bib
+
+[33mcommit 3a3b4fb07da7c83189be7141383193d471878d8a[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Sep 26 23:32:08 2025 +0200
+
+    added GSS22 bib
+
+[33mcommit 08b74d319d44ae49f1ba3c657a71b633b2e81dc4[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Sep 26 23:17:06 2025 +0200
+
+    running away from that failed branching attempt
+
+[33mcommit 0757c36a992aeff21761d278c6e17df3b08e3860[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Sep 26 23:16:19 2025 +0200
+
+    dummy change
+
+[33mcommit cf8065c8fab118780b070d543de5a083a017efe7[m
+Merge: 9586c5b 5987fe6
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Sep 26 22:55:51 2025 +0200
+
+    Merge pull request #3 from abellaval/refactor-bib
+    
+    Adding slides
+
+[33mcommit 5987fe6cb3eb33a328b37ae04a6f82588c95d06f[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Sep 22 17:07:31 2025 +0200
+
+    merge (I think)
+
+[33mcommit 9586c5b8c0d0252ed211ea7240a80f19f2bc6080[m
+Merge: f0deba7 c089d9e
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Sep 12 11:28:20 2025 +0200
+
+    Merge pull request #2 from abellaval/refactor-bib
+    
+    aded slides for talks
+
+[33mcommit c089d9e57738d566aa1e1f20043b90b82133fd1d[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Sep 12 11:25:29 2025 +0200
+
+    aded slides for talks
+
+[33mcommit f0deba747e063716d2f04594091c101a929de757[m
+Merge: 8968ae2 bdd8269
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Thu Sep 11 12:39:16 2025 +0200
+
+    Merge pull request #1 from abellaval/refactor-bib
+    
+    refactor bib
+
+[33mcommit bdd826923c595c614aee0adeb1e0a43555b1877a[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Thu Sep 11 12:22:20 2025 +0200
+
+    refactor bib
+
+[33mcommit 8968ae2f091d365ef58291f964f39a2bcced4648[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Thu Sep 11 10:28:06 2025 +0200
+
+    update bib
+
+[33mcommit f4f9e95b9143adf2a231fdc1fea5ee3e8249c0b9[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Aug 13 12:31:55 2025 +0200
+
+    better Hartshorne version
+
+[33mcommit 9f13c6c329df05e71a87b25888b807563c2b4e9e[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Jul 28 22:55:48 2025 +0200
+
+    Added background color
+
+[33mcommit 5c3b2e6321a273ffe4df874bced42bf13adf7f83[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Jul 28 22:01:40 2025 +0200
+
+    Changed teaching page
+
+[33mcommit 0a73bd628c2b6e64a8136aa911d6f60a65723d20[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Jul 28 21:12:48 2025 +0200
+
+    Added books section in bib
+
+[33mcommit 47e449a5ace935fc190de38e3455f5025a4a73a7[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Jul 28 15:43:05 2025 +0200
+
+    updated icon for google search
+
+[33mcommit a3c86fc52c8c9aa151f3f8ab5ccc3055d2b2a363[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 12:14:45 2025 +0200
+
+    acab
+
+[33mcommit 9f3ed1c6cb1e7a97168de533d3dab0f59f284efa[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 12:08:31 2025 +0200
+
+    merci Draigo
+
+[33mcommit f0ed1b53a40dd27fc75eb48f2119f2dffa63d8ba[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 11:52:56 2025 +0200
+
+    merci Draigo
+
+[33mcommit c69047a311688389822ceb90777f0e9cff594356[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 00:19:37 2025 +0200
+
+    fixed python script
+
+[33mcommit 7921ce631d92d2827046a73341e9cfec6539bfb7[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 00:14:04 2025 +0200
+
+    fixed python script
+
+[33mcommit e135821bf32722c68f817cedc6b114c35f736d5f[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 00:12:01 2025 +0200
+
+    updated bib
+
+[33mcommit b1d20739c052c49bf645e9894af4cc5f6c47ea42[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Sat Jul 26 00:07:31 2025 +0200
+
+    updated bib
+
+[33mcommit 860611e253f13db644080f0f1f685aa0d09e89dd[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:55:56 2025 +0200
+
+    updated bib
+
+[33mcommit e8668fee701108a9dca8a09c8be9e9f024fce483[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:50:39 2025 +0200
+
+    updated bib
+
+[33mcommit 63a73ffd1dd2a3a75dce9e22f63e0a8791df0682[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:42:47 2025 +0200
+
+    modified navigation bar bib
+
+[33mcommit 7509337223260b17428f862f3137511e1218d436[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:33:53 2025 +0200
+
+    removed dead code
+
+[33mcommit 9b5427a3b021b9afef8f2182624765917c680aec[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:31:49 2025 +0200
+
+    problem commit ?
+
+[33mcommit d2639dab5c782d23fd51397741ea3c00745135af[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:25:30 2025 +0200
+
+    removed visited links color
+
+[33mcommit 10ad2f8ea2508d3e38f6ac7b0b2c9061cd0c812d[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:17:29 2025 +0200
+
+    fixed navigation
+
+[33mcommit f66d1be9c2d317bd1dd30be9aff5349ca281ec73[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:16:12 2025 +0200
+
+    added navigation in bib.html
+
+[33mcommit 1600b04b81d8b6e5b8ca956cfcb0d027a54c9aad[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:12:33 2025 +0200
+
+    test transparency
+
+[33mcommit 3b14b19b5dc515df132f437a8f8448d2b17c0127[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 23:08:26 2025 +0200
+
+    removed icon without transparency
+
+[33mcommit c6f059dfb602f30f1d562d6166e70384cd5a434b[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 22:49:46 2025 +0200
+
+    changed bib style
+
+[33mcommit f986dc38796b7ab358e635126ce2aca5a3f33b91[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 22:39:28 2025 +0200
+
+    created bib page
+
+[33mcommit 360f75441e2117c1a993b4d0e66269043b45af62[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 22:02:39 2025 +0200
+
+    added bibliography
+
+[33mcommit 81bab49a3f95e2c2c5a3658d0b15a08b8d86dff7[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 25 21:46:45 2025 +0200
+
+    added icon transparency
+
+[33mcommit a148af1f15aba0b408afcec8f621f08ec2a8b915[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 16:32:07 2025 +0200
+
+    easter egg ?
+
+[33mcommit e9e0607737b4469fe991a3761c336da8ba93a240[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 16:20:53 2025 +0200
+
+    removed dead code and files
+
+[33mcommit f1d7e03b0cb9d8891ade0311414f5a6d9d0f4ccd[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 16:11:32 2025 +0200
+
+    icon error ?
+
+[33mcommit 8eace0434406f1cf23d912bc813ac8ff84443f99[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 16:05:09 2025 +0200
+
+    icons everywhere
+
+[33mcommit e52ee226d46dae3a7694e3302d6c403a2213a15c[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 16:02:51 2025 +0200
+
+    404 haiku
+
+[33mcommit bab6a1282ee0199aa7aa92bd7bad232cd56ad67f[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 15:38:29 2025 +0200
+
+    added icon and 404
+
+[33mcommit bc85eef9bdce1dc91d2c45d0f4dc27017d0374a4[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 14:56:57 2025 +0200
+
+    Added hyperlinks
+
+[33mcommit de71558ebcabbf558cdc596d607e4ef4cc1974d0[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 10:53:46 2025 +0200
+
+    added property google
+
+[33mcommit c5c3aaf0ec2cee7f4805369cba968bb800c7c651[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Jul 25 10:46:48 2025 +0200
+
+    added google verification
+
+[33mcommit 91e136a3ea58e4bc037f30a2ccdc9c8e6c0ab613[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jul 16 15:26:42 2025 +0200
+
+    Revert "Phone compatibility : first try"
+    
+    This reverts commit 61bc46056feb8f39bc98f0203c6e79bcfebae4c9.
+
+[33mcommit ec1d3c8b84f390e9b37c4538cfa81dae47dbc3a1[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jul 16 15:26:38 2025 +0200
+
+    Revert "Test mobile"
+    
+    This reverts commit 322e4c65a6cb3b4bc2b341e3710728c92377b8c5.
+
+[33mcommit 4ad4be96d411f66fb450f60fbbfccc3177423128[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jul 16 15:26:32 2025 +0200
+
+    Revert "test mobile"
+    
+    This reverts commit 3eb88aab70db06b63d90e1b6716f8b7935c77a2a.
+
+[33mcommit 3eb88aab70db06b63d90e1b6716f8b7935c77a2a[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jul 16 15:26:23 2025 +0200
+
+    test mobile
+
+[33mcommit 322e4c65a6cb3b4bc2b341e3710728c92377b8c5[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jul 16 15:17:02 2025 +0200
+
+    Test mobile
+
+[33mcommit 61bc46056feb8f39bc98f0203c6e79bcfebae4c9[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Wed Jul 16 12:10:39 2025 +0200
+
+    Phone compatibility : first try
+
+[33mcommit 2b41aea72cf13e9fb0a7331fb0455b3a2b401d40[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Tue Jul 15 16:12:27 2025 +0200
+
+    changed teaching formatting a bit
+
+[33mcommit de192ef891fa3b9b7243e5efa262569a7d189b99[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Tue Jul 15 12:45:45 2025 +0200
+
+    Added best paper award crypto
+
+[33mcommit 40574dc5deec95cb593f50b213bf2cc88e27efa5[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Jul 14 14:48:49 2025 +0200
+
+    fix the font, second attempt
+
+[33mcommit 64da440f239e10ae419c3d93e1d8bc18befd701c[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Mon Jul 14 14:39:33 2025 +0200
+
+    fix Arnaud font issue
+
+[33mcommit 84018d8236d9e793f12633c51b5fe5076ae3e5a6[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 11 17:10:30 2025 +0200
+
+    corrected typos
+
+[33mcommit fb9d251b6aaa4746b31e800176b1df1ade7b78ad[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 11 16:57:17 2025 +0200
+
+    added mobile version incoming disclaimer
+
+[33mcommit f38c152e9567857ac111a2135b3d8703a615f7b4[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Fri Jul 11 16:52:23 2025 +0200
+
+    version 1
+
+[33mcommit 9f2a70945f56efcb4b5051e3ef29d745d930aceb[m
+Author: abellaval <abel.laval@ulb.be>
+Date:   Wed Jul 9 11:13:26 2025 +0200
+
+    Complete Refactor
+    
+    Thanks to Arnaud...
+
+[33mcommit 627715fdeef57e370d49d80ff2a3289dee841d6e[m
+Author: abellaval <91144521+abellaval@users.noreply.github.com>
+Date:   Fri Oct 18 15:14:57 2024 +0200
+
+    Still testing
+
+[33mcommit 30be6aad2acea7e105c2c19a06c4cd4a4271c6d5[m
+Author: Abel Laval <abel.laval@ulb.be>
+Date:   Fri Oct 18 11:44:45 2024 +0200
+
+    Trigger rebuild
+
+[33mcommit b10118ed879ad7b7a5c971b7b44c892d087fd75d[m
+Author: Abel Laval <abel.laval@ulb.be>
+Date:   Fri Oct 18 11:41:09 2024 +0200
+
+    blabla
+
+[33mcommit c838ec983ccacea2e04875a3a2fec51de9df6eff[m
+Author: Abel Laval <abel.laval@ulb.be>
+Date:   Fri Oct 18 11:31:32 2024 +0200
+
+    Trigger rebuild
+
+[33mcommit e07ec04bf87ba866b1333b5edaff467fe33acb79[m
+Author: Abel Laval <abel.laval@ulb.be>
+Date:   Fri Oct 18 11:19:26 2024 +0200
+
+    hellow world
+
+[33mcommit 33b08466dab0fd2767efd954ffd746b181a2ba2b[m
+Author: Abel Laval <abel.laval@ulb.be>
+Date:   Fri Oct 18 11:02:53 2024 +0200
+
+    init

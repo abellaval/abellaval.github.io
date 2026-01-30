@@ -1,10 +1,37 @@
 import os
+from pathlib import Path
+import hashlib
+import shutil
 
+
+# Loading bibliography
 def load_categories(bib_dir, output_file, sections) :
     """
     Load bib for a specific category : math, philo, econ...
     """
 
+    show_sha2_digest = False
+
+    # Gets bib size and hash
+    def get_directory_size(bib_dir) :
+        return sum(f.stat().st_size for f in Path(bib_dir).rglob('*.pdf') if f.is_file())
+    bib_size = get_directory_size(bib_dir)
+    bib_size = int(bib_size/(1024**2))
+
+
+    # Compute SHA2 digest of the bib
+    def hash_bib(path) :
+        sha = hashlib.sha256()
+
+        for pdf in sorted(Path(path).glob("*.pdf")) :
+            with pdf.open("rb") as f:
+                for chunk in iter(lambda: f.read(8192), b"") :
+                    sha.update(chunk)
+        return sha.hexdigest()
+    bib_digest = hash_bib(bib_dir)
+
+
+    # Actually get the bib
     def import_pdf(section_name, split=True) :
         # Import files
         dir = bib_dir + section_name
@@ -42,6 +69,7 @@ def load_categories(bib_dir, output_file, sections) :
         return html_section
 
 
+    # HTML head
     html_head = f"""<!DOCTYPE html>
     <html lang="en">
         <head>
@@ -56,7 +84,22 @@ def load_categories(bib_dir, output_file, sections) :
             <a style="margin-right: 10px;"  href="index.html">home</a>
         </p>"""
 
-    html_coda = f"""</body>
+    # HTML coda
+    if show_sha2_digest :
+        html_coda = f"""<p style="margin-top: 3%;">
+            size     : ~{bib_size} MB <br>
+            SHA256 : {bib_digest} <br>
+            <a class="bib" href="math.zip" download>download</a>
+        </p>
+    </body>
+        </html>"""
+    else :
+        html_coda = f"""\n\n<!-- Download -->
+    <p style="margin-top: 3%;">
+		size     : ~{bib_size} MB <br>
+        <a class="bib" href="math.zip" download>download</a>
+	</p>
+</body>
     </html>"""
 
 
@@ -66,6 +109,8 @@ def load_categories(bib_dir, output_file, sections) :
     # Add the sections
     for section in sections :
         html_page += import_pdf(section)
+
+    # Add the byte-size and hash
 
     # End of the html code
     html_page += html_coda
@@ -80,6 +125,18 @@ def load_categories(bib_dir, output_file, sections) :
 
 
 
+def create_bib_archive(bib_dir) :
+    archive_name = bib_dir.replace('./bib/','').replace('/','')
+
+    shutil.make_archive(
+        base_name=bib_dir + archive_name,
+        format="zip",
+        root_dir='.',
+        base_dir=bib_dir
+    )
+    return 0
+
+
 # One bib page per topic
 categories = [
     ['./bib/math/','./bib.html', ['KLPT & IKO','SQIsign', 'Isogenies', 'Mathematics','Drinfeld Modules','Cryptography','Lattices','Books','Theses','Misc']],
@@ -89,3 +146,8 @@ categories = [
 for category in categories :
     bib_dir, output_file, sections = category
     load_categories(bib_dir, output_file, sections)
+ 
+    # create_bib_archive(bib_dir)
+
+
+
