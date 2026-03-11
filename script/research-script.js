@@ -1,6 +1,6 @@
-//import PAPERS_DATA from "./papers-data.js";
-//import PREPRINTS_DATA from "./preprints-data.js";
-//import TALKS_DATA from "./talks-data.js";
+//import PAPERS_DATA from "./papers.js";
+//import PREPRINTS_DATA from "./preprints.js";
+//import TALKS_DATA from "./talks.js";
 
 function LienSpecial(nom) {
    const liensLogos = [
