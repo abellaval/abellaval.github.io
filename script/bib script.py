@@ -58,13 +58,16 @@ def load_categories(bib_dir, output_file, sections) :
 
             list_items.append(f'\t\t<li><a class="bib" href="{dir}/{filename}" target="_blank">{name}</a></li>')
 
-        # Generate the html section
-        html_section = f"""
-        \n<!-- {section_name} -->
-        <h2 class='bib'>— {section_name} —</h2>
-        <ol>
-    {chr(10).join(list_items)}
-        </ol>\n"""
+        # Generate the html section if there are articles in it
+        if pdf_files != [] :
+            html_section = f"""
+            \n<!-- {section_name} -->
+            <h2 class='bib'>— {section_name} —</h2>
+            <ol>
+        {chr(10).join(list_items)}
+            </ol>\n"""
+        else :
+            html_section = ""
 
         return html_section
 
@@ -97,7 +100,7 @@ def load_categories(bib_dir, output_file, sections) :
         html_coda = f"""\n\n<!-- Download -->
     <p style="margin-top: 3%;">
 		size     : ~{bib_size} MB <br>
-        <a class="bib" href="math.zip" download>download</a>
+        <a class="bib" href="math.zip" download>download</a> (coming soon)
 	</p>
 </body>
     </html>"""
@@ -139,8 +142,9 @@ def create_bib_archive(bib_dir) :
 
 # One bib page per topic
 categories = [
-    ['./bib/math/','./bib.html', ['KLPT & IKO','SQIsign', 'Isogenies', 'Mathematics','Drinfeld Modules','Cryptography','Lattices','Books','Theses','Misc']],
-    ['./bib/philo/', './bib2.html', ['Philosophy of mind','Metaphysics']]
+    ['./bib/math/','./bib.html', ['KLPT & IKO','SQIsign', 'Isogenies', 'Mathematics','Drinfeld Modules','Cryptography','Lattices','Books', 'Syllabus', 'Theses','Misc']],
+    ['./bib/philo/', './bibb.html', ['Metaphysics', 'Ethics', 'Philosophy of mind']],
+    ['./bib/eco/', './bibbb.html', ['Macroeconomy', 'Finance', 'Pseudoscience', 'Books', 'Reports', 'Theses']]
 ]
 
 for category in categories :
