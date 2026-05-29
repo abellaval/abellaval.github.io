@@ -142,7 +142,7 @@ def create_bib_archive(bib_dir) :
 
 # One bib page per topic
 categories = [
-    ['./bib/math/','./bib.html', ['KLPT & IKO','SQIsign', 'Isogenies', 'Mathematics','Drinfeld Modules','Cryptography','Lattices','Books', 'Syllabus', 'Theses','Misc','Poetry']],
+    ['./bib/math/','./bib.html', ['KLPT & IKO','SQIsign', 'Isogenies', 'Mathematics', 'Ibukiyama', 'Drinfeld Modules','Cryptography','Lattices','Books', 'Syllabus', 'Theses','Misc','Poetry']],
     ['./bib/philo/', './bibb.html', ['Metaphysics', 'Ethics', 'Philosophy of mind']],
     ['./bib/eco/', './bibbb.html', ['Macroeconomy', 'Finance', 'Pseudoscience', 'Books', 'Reports', 'Theses']]
 ]
