@@ -37,6 +37,9 @@ def load_categories(bib_dir, output_file, sections) :
         dir = bib_dir + section_name
         pdf_files = [f for f in os.listdir(dir) if f.lower().endswith('.pdf')]
 
+        # Replace keywords in filenames by characters that are not allowed in filenames
+        character_replacements = {'[slash]':'/'}
+
         # Titleless articles are put above the others
         if split :
             without_title = []
@@ -55,6 +58,9 @@ def load_categories(bib_dir, output_file, sections) :
         list_items = []
         for filename in pdf_files:
             name = os.path.splitext(filename)[0]
+            # Replacing special characters
+            for key in character_replacements :
+                name = name.replace(key, character_replacements[key])
 
             list_items.append(f'\t\t<li><a class="bib" href="{dir}/{filename}" target="_blank">{name}</a></li>')
 
