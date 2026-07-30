@@ -38,7 +38,8 @@ def load_categories(bib_dir, output_file, sections) :
         pdf_files = [f for f in os.listdir(dir) if f.lower().endswith('.pdf')]
 
         # Replace keywords in filenames by characters that are not allowed in filenames
-        character_replacements = {'[slash]':'/', '[phi]':'φ'}
+        character_replacements = {'[slash]':'/', '[interrogation]':'?',
+                                  '[phi]':'φ'}
         
 
         # Titleless articles are put above the others
@@ -63,19 +64,12 @@ def load_categories(bib_dir, output_file, sections) :
             for key in character_replacements :
                 name = name.replace(key, character_replacements[key])
 
-
-            """
-            s = s.replace(types['tag'], '')
-            s = s.replace('{', '')
-            s = s.replace('}', '')
-            """
-
-
-
             # Detect where exponents are in titles and replace them
             def replace_sub_supscripts(name) :
                 types = [{'tag' : '^',
-                          'items' : {'0':'⁰', '1':'¹', '2':'²', '3':'³', '4':'⁴', '5':'⁵', '6':'⁶', '7':'⁷', '8':'⁸', '9':'⁹', '/':'ᐟ'}},
+                          'items' : {'0':'⁰', '1':'¹', '2':'²', '3':'³', '4':'⁴', '5':'⁵', '6':'⁶', '7':'⁷', '8':'⁸', '9':'⁹',
+                                     '/':'ᐟ', '(':'⁽', ')':'⁾', '+':'⁺',
+                                     'o':'ᵒ'}},
                           {'tag' : '_',
                           'items' : {'0':'₀', '1':'₁', '2':'₂', '3':'₃', '4':'₄', '5':'₅', '6':'₆', '7':'₇', '8':'₈', '9':'₉', 'p':'ₚ'}}
                           ]
