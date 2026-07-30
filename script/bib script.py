@@ -38,7 +38,8 @@ def load_categories(bib_dir, output_file, sections) :
         pdf_files = [f for f in os.listdir(dir) if f.lower().endswith('.pdf')]
 
         # Replace keywords in filenames by characters that are not allowed in filenames
-        character_replacements = {'[slash]':'/'}
+        character_replacements = {'[slash]':'/', '[phi]':'φ'}
+        
 
         # Titleless articles are put above the others
         if split :
@@ -61,6 +62,58 @@ def load_categories(bib_dir, output_file, sections) :
             # Replacing special characters
             for key in character_replacements :
                 name = name.replace(key, character_replacements[key])
+
+
+            """
+            s = s.replace(types['tag'], '')
+            s = s.replace('{', '')
+            s = s.replace('}', '')
+            """
+
+
+
+            # Detect where exponents are in titles and replace them
+            def replace_sub_supscripts(name) :
+                types = [{'tag' : '^',
+                          'items' : {'0':'⁰', '1':'¹', '2':'²', '3':'³', '4':'⁴', '5':'⁵', '6':'⁶', '7':'⁷', '8':'⁸', '9':'⁹', '/':'ᐟ'}},
+                          {'tag' : '_',
+                          'items' : {'0':'₀', '1':'₁', '2':'₂', '3':'₃', '4':'₄', '5':'₅', '6':'₆', '7':'₇', '8':'₈', '9':'₉', 'p':'ₚ'}}
+                          ]
+
+                def replace_symbols(s, type) :
+                    items = type['items']
+                    for key in items :
+                        s = s.replace(key, items[key])
+                    return s
+
+                def detect(name, type) :
+                    tag = type['tag']
+
+                    list_strings = []
+                    for i in range(len(name)) :
+                        if name[i:i+2] == tag+'{' :
+                            list_strings.append(['',i,i+2])
+                            for k in range(i+2, len(name)) :
+                                list_strings[-1][2] += 1    # Count number of letters in the string
+                                if name[k] == '}' : break
+                                list_strings[-1][0] += name[k]
+                    return list_strings
+
+                for type in types :
+                    list_strings = detect(name, type)
+                    if list_strings == [] : continue    # If there is nothing to replace (most papers)
+                    for s in list_strings :
+                        # We cut the title where the exponent/subscript is and insert the replaced exponent where the encoding was
+                        # s[0] : what has to be replaced (str)
+                        # s[1] : index of the exponent in name (int)
+                        # s[2] : index where the exponent stops (int)
+                        name = name[:s[1]] + replace_symbols(s[0],type) + name[s[2]:]
+
+                return name
+
+
+            # Add exponents and subscripts
+            name = replace_sub_supscripts(name)
 
             list_items.append(f'\t\t<li><a class="bib" href="{dir}/{filename}" target="_blank">{name}</a></li>')
 
