@@ -39,7 +39,7 @@ def load_categories(bib_dir, output_file, sections) :
 
         # Replace keywords in filenames by characters that are not allowed in filenames
         character_replacements = {'[slash]':'/', '[colon]': ':', '[interrogation]':'?',
-                                  '[phi]':'φ'}
+                                  '[phi]':'φ', '[Delta]':'Δ'}
         
 
         # Titleless articles are put above the others
