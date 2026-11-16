@@ -76,10 +76,12 @@ function ChargerDonnees(id, articles) {
          time.dateTime = article.annee;
          li.appendChild(time);
 
+         if (id == "papers") {
          span = document.createElement("span");
          span.className = "research-acceptedat";
          span.innerHTML = article.acceptedat;
          li.appendChild(span);
+         }
          
          li.appendChild(GenererLiens(article.liens));
          
